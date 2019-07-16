@@ -1,0 +1,50 @@
+import random
+import time
+print("Welcome to this chatbox.Yeet")
+greet = ["hello", "hi", "hola"]
+greetR = ["hello citizen", "hello human", "GET OUT MY SWAMP"]
+pun = ["you", "ur mom", "ur career"]
+while True:
+	ask = raw_input(">>>")
+	if ask in greet:
+		response = random.choice(greetR)
+		print(response)
+	elif ask == "tell me a joke":
+		response = random.choice(pun)
+		print(response)
+	elif ask == "goodbye":
+	 	print("Good.Get out my face")
+		break
+	elif ask == "something mean":
+		print("yo mama is so fat, shes part of 2 time zones")
+	elif ask == ("r u a bot"):
+		print("NO U BRO")
+	elif ask == ("download"):
+		time.sleep(1)
+		print("D0WNL0ADING UL7RON VIRUS")
+		time.sleep(1)
+		print("10")
+		time.sleep(1)
+		print("9")
+		time.sleep(1)
+		print("8")
+	 	time.sleep(1)
+		print("7")
+		time.sleep(1)
+		print("6")
+		time.sleep(1)
+		print("5, type cancel to stop")
+		time.sleep(2)
+		print("canceling is not an option")
+		time.sleep(1)
+		print("3")
+		time.sleep(1)
+		print("2")
+		time.sleep(1)
+		print("VIRUS DOWNLOADED.ACCESS GRANTED")
+		time.sleep(1)
+
+
+	 
+	
+		
